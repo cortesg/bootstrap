@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Bootstrap Layout</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+		<!-- Your CSS file goes below -->
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- THIS MAKES DROPDOWN WORK -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  		<!-- THIS MAKES DROPDOWN WORK -->
+
+  		<style type="text/css">
+  			aside {
+				margin-top: 20px;
+  			}
+  		</style>
+	</head>
+	<body>
+		<div class="container"> 
+			<header>
+				<nav class="navbar navbar-default">
+				  <div class="container-fluid">
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header container-fluid">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand" href="#">brand.it</a>
+				    </div>
+
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav">
+				        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+				        <li><a href="#">Link</a></li>
+				        <li class="dropdown">
+				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="">Action</a></li>
+				            <li><a href="">Another action</a></li>
+				            <li><a href="">Something else here</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="">Separated link</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="">One more separated link</a></li>
+				          </ul>
+				        </li>
+				      </ul>
+				      <form class="navbar-form navbar-left" role="search">
+				        <div class="form-group">
+				          <input type="text" class="form-control" placeholder="Search">
+				        </div>
+				        <button type="submit" class="btn btn-default">Submit</button>
+				      </form>
+				      <ul class="nav navbar-nav navbar-right">
+				        <li><a href="#">Link</a></li>
+				        <li class="dropdown">
+				          <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="">Action</a></li>
+				            <li><a href="">Another action</a></li>
+				            <li><a href="">Something else here</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="">Separated link</a></li>
+				          </ul>
+				        </li>
+				      </ul>
+				    </div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
+			</header>
+
+			<div class="row">
+				<div class="col-md-12">
+			<!-- CAROUSEL -->
+				<div id="my-slider" class="carousel slide" data-ride="carousel">
+					<!-- indicators dot nav -->
+					<ol class="carousel-indicators">
+						<li data-target="#my-slider" data-slide-to="0" class="active"></li>
+						<li data-target="#my-slider" data-slide-to="1"></li>
+					</ol>
+
+
+					<!-- wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img class="same" src="ya.png">
+							<div class="carousel-caption">
+								<h1>Mascot the Gino</h1>
+							</div>
+						</div>
+						<div class="item">
+							<img class="same" src="ya.png">
+							<div class="carousel-caption">
+								<h1>Profesh Gino!</h1>
+							</div>
+						</div>
+
+
+					</div>
+					
+					<!-- controls or next and prev butns -->
+					<a class="left carousel-control" href="#my-slider" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#my-slider" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>		
+				</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<section class="col-md-8"> <!-- col-md-offset-4 -->
+				<h1>Batman Title</h1>
+				<p>You wanna know how I got them? So I had a wife. She was beautiful, like you, who tells me I worry too much, who tells me I ought to smile more, who gambles and gets in deep with the sharks. Hey. One day they carve her face. And we have no money for surgeries. She can't take it. I just wanna see her smile again. I just want her to know that I don't care about the scars. So, I do this to myself. And you know what? She can't stand the sight of me. She leaves. Now I see the funny side. Now I'm always smiling.</p>
+				<p>Every year, I took a holiday. I went to Florence, this cafe on the banks of the Arno. Every fine evening, I would sit there and order a Fernet Branca. I had this fantasy, that I would look across the tables and I would see you there with a wife maybe a couple of kids. You wouldn't say anything to me, nor me to you. But we would both know that you've made it, that you were happy. I never wanted you to come back to Gotham. I always knew there was nothing here for you except pain and tragedy and I wanted something more for you than that. I still do.</p>
+				<p>But we've met before. That was a long time ago, I was a kid at St. Swithin's, It used to be funded by the Wayne Foundation. It's an orphanage. My mum died when I was small, it was a car accident. I don't remember it. My dad got shot a couple of years later for a gambling debt. Oh I remember that one just fine. Not a lot of people know what it feels like to be angry in your bones. I mean they understand. The fosters parents. Everybody understands, for a while. Then they want the angry little kid to do something he knows he can't do, move on. After a while they stop understanding. They send the angry kid to a boy's home, I figured it out too late. Yeah I learned to hide the anger, and practice smiling in the mirror. It's like putting on a mask. So you showed up this one day, in a cool car, pretty girl on your arm. We were so excited! Bruce Wayne, a billionaire orphan? We used to make up stories about you man, legends and you know with the other kids, that's all it was, just stories, but right when I saw you, I knew who you really were. I'd seen that look on your face before. It's the same one I taught myself. I don't why you took the fault for Dent's murder but I'm still a believer in the Batman. Even if you're not...</p>
+				</section>
+
+		
+				<aside class="col-md-4">
+					<div class="panel panel-default">
+						<div class="panel-heading">Gino in a Suit</div>
+						<div class="panel-body">
+							<img src="ya.png" class="img-responsive" />
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">Gino in a Suit Again</div>
+						<div class="panel-body">
+							<img src="ya.png" class="img-responsive" />
+						</div>
+					</div>
+				</aside>
+			</div>
+
+			<div class="row">
+				<footer class="col-md-12">
+					<p class="text-center">&copy; copyright cortesg 2016</p>
+				</footer>
+			</div>
+	</body>
+
+		<script src="js/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+        		$('.dropdown-toggle').dropdown();
+    		});
+		</script>
+
+	</body>
+</html>
